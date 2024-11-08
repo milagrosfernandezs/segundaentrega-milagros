@@ -1,29 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Metadatos para la página -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <!-- Fuentes de Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
-
+    <!-- Enlace a la hoja de estilos CSS -->
     <link rel="stylesheet" href="../style.css">
-
 </head>
 <body>
+
+    <!-- Encabezado de la página -->
     <header>
         <div class="logo">
-            <a href="../index.html">
-                <img src="../img/logo1.png" alt="logo cute">
-
-            </a>
-            
+            <!-- Logo de la tienda -->
+            <img src="../img/logo1.png" alt="logo cute">
         </div>
-        
-    
-       
+
+        <!-- Barra de navegación -->
         <nav>
             <ul>
                 <li><a href="../pages/inicio.html">INICIO</a></li>
@@ -34,80 +34,70 @@
             </ul>
         </nav>
         <hr>
-
-        
     </header>
+
+    <!-- Contenido principal -->
     <main>
+        <!-- Sección del formulario de contacto -->
         <div class="Formulario">
-            <h1>Envíanos tu Consulta</h1>
+            <h1>Envíanos tu Consulta</h1> <!-- Título del formulario -->
+            
+            <!-- Formulario que envía un correo electrónico al ser enviado -->
             <form action="mailto:tu-email@ejemplo.com" method="post" enctype="text/plain">
+                <!-- Campo de entrada para el nombre -->
                 <label for="name">Nombre</label>
                 <input type="text" id="name" name="name" required>
-    
+
+                <!-- Campo de entrada para el correo electrónico -->
                 <label for="email">Correo Electrónico</label>
                 <input type="email" id="email" name="email" required>
-    
+
+                <!-- Campo de entrada para el asunto -->
                 <label for="subject">Asunto</label>
                 <input type="text" id="subject" name="subject" required>
-    
+
+                <!-- Área de texto para el mensaje -->
                 <label for="message">Mensaje</label>
                 <textarea id="message" name="message" rows="4" required></textarea>
-    
+
+                <!-- Botón para enviar el formulario -->
                 <input type="submit" value="Enviar Consulta">
             </form>
         </div>
 
-
-
-
-
-
-    </main><main>
-
-
-     <h1>PRODUCTOS DESTACADOS</h1>
-
-        
-             <img src="../img/flechaizq.png" alt="flecha izquierda">
+        <!-- Sección para productos destacados (imágenes) -->
+        <section>
+            <h1>PRODUCTOS DESTACADOS</h1> <!-- Título de los productos destacados -->
+            <!-- Imágenes de productos destacados -->
+            <img src="../img/flechaizq.png" alt="flecha izquierda">
             <img src="../img/stickers.png" alt="Personaliza tu buzo">
             <img src="../img/chimu.png" alt="chimuelos">
             <img src="../img/chicassuper.png" alt="chicas superpoderosas">
             <img src="../img/dinoo.png" alt="dino">
             <img src="../img/flechader.png" alt="flecha derecha">
-
-           
-            
-
         </section>
-        <hr>
-        
-    
-      
 
-</html>
+        <hr> <!-- Línea horizontal como separador -->
+    </main>
 
-
-        
-
+    <!-- Sección del pie de página -->
     <footer>
-    <h3>
-        Navegación
-    </h3>
+        <!-- navegación en el pie de página -->
+        <h3>Navegación</h3>
+        <div>
+            <ul>
+                <li><a href="">Inicio</a></li>
+                <li><a href="">Shop</a></li>
+                <li><a href="">Sobre Nosotros</a></li>
+                <li><a href="">Politicas de Compra</a></li>
+                <li><a href="">Contacto</a></li>
+            </ul>
+        </div>
 
-    <div>
-        <ul>
-            <li><a href="">Inicio</a></li>
-            <li><a href="">Shop</a></li>
-            <li><a href="">Sobre Nosotros</a></li>
-            <li><a href="">Politicas de Compra</a></li>
-            <li><a href="">Contacto</a></li>
-        </ul>
-    </div>
-
+        <!-- Información de contacto -->
         <h3>Contacto</h3>
         <h4>mail💌: info@cutebaires.com</h4>
         <h4>telefono: 113654548</h4>
     </footer>
-    
 </body>
 </html>
